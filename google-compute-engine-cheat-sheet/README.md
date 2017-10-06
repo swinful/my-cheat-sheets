@@ -17,6 +17,16 @@ GCP Help,
 gcloud help
 ```
 
+List accounts and view which is currently active,
+```bash
+gcloud auth list
+```
+
+Change default active account,
+```bash
+gcloud config set account ACCOUNT_NAME
+```
+
 Version information for GCP SDK Components,
 
 ```bash
